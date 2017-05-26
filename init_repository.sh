@@ -42,3 +42,5 @@ create_file_is_not_exist News.md "# News\n"
 create_file_is_not_exist README.md "# README\n\n${read_me}"
 create_file_is_not_exist THANKS.md "# THANKS\n"
 create_file_is_not_exist TODO.md "# TODO\n"
+git add AUTHORS.md BUGS.md ChangeLog.md INSTALL.md LICENCE.md News.md README.md THANKS.md TODO.md
+git commit -am 'chore(git): Init git repository'
